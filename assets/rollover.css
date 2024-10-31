@@ -1,0 +1,36 @@
+/************SHADOW HOVER************/
+.effect_shadow_hover img,.effect_shadow_hover span{
+	-webkit-transform: scale(1.0);
+	/* Webkit: Scale down image to 1.0x original size; */
+	-moz-transform: scale(1.0);
+	-o-transform: scale(1.0);
+	-webkit-transition-duration: 0.5s;
+	/* Webkit: Animation duration; */
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	opacity: 0.7;
+	margin: 0 10px 5px 0;
+}
+.effect_shadow_hover:hover img,.effect_shadow_hover:hover span{
+	-webkit-transform: scale(1.2);
+	/* Webkit: Scale up image to 1.2x original size; */
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	box-shadow: 0px 0px 30px gray;
+	-webkit-box-shadow: 0px 0px 30px gray;
+	-moz-box-shadow: 0px 0px 30px gray;
+	opacity: 1;
+}
+
+/************B&W****************/
+.effect_bandw img{
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.effect_bandw img:hover,.effect_bandw span:hover{
+	-webkit-filter: grayscale(100%);
+}

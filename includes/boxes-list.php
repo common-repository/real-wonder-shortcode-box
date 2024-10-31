@@ -1,0 +1,1 @@
+<span title="Real Box" class="box">Box by CSS or image</span>

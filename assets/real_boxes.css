@@ -1,0 +1,30 @@
+.real_box{
+	display: inline-block;
+}
+.real_box .rheader,
+.real_box .rbody,
+.real_box .rfooter{
+	display: block;
+	width: 100%;
+	display: block;
+	width: 100%;
+	text-align: justify;
+	padding: 5px;
+	box-sizing: border-box;
+	background-size: 100% 100%;
+}
+.real_box .rbody{
+	overflow-y: auto;	
+	overflow-x: hidden;
+}
+/*headline*/
+.real_box .rheader{
+	text-align: center;
+	padding-top: 0px;
+}
+
+.real_box .rheader br,
+.real_box .rbody br,
+.real_box .rfooter br{
+	display: none;
+}

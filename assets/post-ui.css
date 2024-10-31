@@ -1,0 +1,422 @@
+#real_shortcodes_dialog{
+	display: none;
+	position: fixed;
+	left: 180px;
+	top: 120px;
+	width: 590px;
+	height: 460px;
+	z-index: 1000;
+}
+#real_shortcodes_dialog .closebtn{
+	float: right;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+#real_shortcodes_dialog .rheader{
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid darkgray;
+	background-color: #222;
+	color: darkgray;
+	min-height: 13px;
+}
+#real_shortcodes_dialog .rtabs{
+	position: absolute;
+	width: 110px;
+	left: 0px;
+	top: 1px;
+	overflow: hidden;
+	height: 32px;
+	z-index: 1;
+}
+#real_shortcodes_dialog_save input,#real_shortcodes_dialog_save select{
+	width: 80px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+#real_shortcodes_dialog_save label{
+	width: 100px;
+	display: inline-block;
+}
+#real_shortcodes_dialog .rtabs:hover{
+	overflow: visible;
+}
+#real_shortcodes_dialog .rtabs span{
+	border-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	padding: 10px;
+	width: 90px;
+	display: block;
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-color: darkgray;
+	cursor: pointer;
+	background-color: black;
+}
+#real_shortcodes_dialog .rtabs span:hover,#real_shortcodes_dialog .rtabs span.active{
+	background-color: #666;
+	color: white;
+}
+#real_shortcodes_dialog .inside .tab{
+	display: none;
+	text-align: center;
+}
+#real_shortcodes_dialog #r-tabs-images img{
+	width: 64px;
+	height: 64px;
+	margin: 10px 15px 15px 10px;
+	cursor: pointer;
+}
+#real_shortcodes_dialog #r-tabs-icons .icon{
+	font-size: 30px;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	cursor: pointer;
+}
+#real_shortcodes_dialog #rtab_filter_button{
+	margin-left: 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+#real_shortcodes_dialog #rtab_filter{
+	position: absolute;
+	height: 25px;
+	top: 3px;
+	left: 3px;
+	width: 200px;
+	display: none;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode{
+	height: 367px;
+	position: absolute;
+	top: 33px;
+	left: -1px;
+	width: 590px;
+	display: none;
+	text-align: center;
+	min-width: initial !important;
+	z-index: 5;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview a{
+	text-decoration: none;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview .icon{
+	display: inline-block;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #real_sc_imagefromlib{
+	margin-bottom: 10px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params{
+	display: inline-block;
+	float: left;
+	width: 230px;
+	margin-top: 7px;
+	text-align: left;
+	margin-left: 8px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview{
+	overflow: hidden;
+	float: right;
+	width: 330px;
+	height: 330px;
+	border: 1px dashed lightgray;
+	text-align: center;
+	line-height: 330px;	
+	top: -100px;
+	display: inline-block;
+	margin: 8px;
+	font-size: 32px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params label{
+	display: inline-block;
+	min-width: 84px;
+	text-align: left;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params .clearcolor{
+	margin-left: 3px;
+	margin-bottom: 5px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params input.scolorpicker{
+	width: 75px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params input[type="checkbox"]{
+	width: 17px;
+	height: 17px;
+	margin-top: 4px;	
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params input{
+	width: 132px;
+	height: 23px;
+	margin-bottom: 5px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params select{
+	width: 132px;
+	height: 23px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode #sc_params .color_section  label{
+	min-width: 84px;
+}
+#real_shortcodes_dialog #real_shortcode{
+	height: 45px;
+	width: 495px;
+	resize: none;
+	position: absolute;
+	background-color: darkgray;
+}
+#real_shortcodes_dialog .res_container{
+	padding-left:5px;
+	line-height: 52px;
+	border-top: 1px solid darkgray;
+	padding-top: 5px;
+	background-color: #222;
+	color: whitesmoke;
+}
+#real_shortcodes_dialog .box{
+	background: url('images/css_box.png')
+}
+#real_shortcodes_dialog .box{
+	display: inline-block;
+	width: 250px;
+	height: 340px;
+	border: 1px solid darkgrey;
+	line-height: 400px;
+	margin: 5px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	font-size: 22px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview .real_box_preview>div{
+	background-size: 100% 100%;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview .real_box_preview{
+	margin: auto auto;
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 23px;
+	display: inline-block;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview .real_box_preview .real_box_header_preview{
+	border: 1px dashed red;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview .real_box_preview .real_box_stage_preview{
+	border: 1px dashed green;
+	padding: 4px;
+	box-sizing: border-box;
+	overflow-y: auto;	
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .button:not(.clearcolor){
+	margin: 5px;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .real_img_button{
+	min-width: 110px;
+	text-align: center;
+}
+#real_shortcodes_dialog #dialog_preview_shortcode .sc_preview .real_box_preview .real_box_footer_preview{
+	border: 1px dashed blue;	
+}
+#real_shortcodes_dialog .box_tabs{
+	display: inline-block;
+	margin-right: 10px;
+	height: 13px;
+}
+#real_shortcodes_dialog .box_tabs>span.active{
+	background-color: #666;
+	color: white;
+}
+#real_shortcodes_dialog .box_tabs>span{
+	display: inline-block;
+	padding: 5px;
+	border-right: 1px solid darkgray;
+	cursor: pointer;
+	margin-top: -5px;
+	background-color: black;
+	color: white;
+}
+#real_shortcodes_dialog .box_tabs>span:nth-child(1){
+	border-left: 1px solid darkgray;
+}
+#real_shortcodes_dialog #sc_params .raccordion{
+	background-color: #222;
+	color: whitesmoke;
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+	cursor: pointer;
+	margin-bottom: 2px;
+}
+#real_shortcodes_dialog #real_shortcodes_zoom{
+	display: inline-block;
+	width: 170px;
+	margin-top: 12px;
+	vertical-align: middle;
+	margin-left: 7px;
+}
+#real_shortcodes_dialog #real_shortcodes_zoom_val{
+	border: 1px solid lightgray;
+	margin: 3px;
+	vertical-align: middle;
+	padding: 1px;
+	margin-top: 10px;
+	display: inline-block;
+}
+#real_shortcodes_dialog #real_shortcode_save_as{
+	width: 120px;
+	z-index: 10;
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+	right: 15px;
+	bottom: 10px;
+}
+#real_shortcodes_dialog #manage_groups_dialog .button{
+	width: 140px;
+	margin-top: 7px;
+}
+#real_shortcodes_dialog #manage_groups_dialog .edit_right{
+	float: right;
+	width: 80px;
+	margin-bottom: 4px;	
+}
+#real_shortcode_groups{
+	width: 200px;
+	height: 120px;
+	float: left;
+}
+#real_shortcodes_dialog #real_shortcodes_dialog_save,
+#real_shortcodes_dialog #manage_groups_dialog{
+	border: 1px solid lightgrey;
+	padding: 5px;
+	width: 290px;
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	z-index: 20;
+	background-color: whitesmoke;
+	left: 150px;
+}
+#real_shortcodes_dialog #real_shortcode_savename{
+	width: 170px;
+}
+#real_shortcodes_dialog #real_shortcodes_dialog_save .button{
+	margin-top: 3px;
+	min-width: 70px;
+}
+#real_shortcodes_dialog .saved_codes:before{
+}
+#real_shortcodes_dialog .saved_codes{
+	position: absolute;
+	top: 0px;
+	right: -152px;
+	border: 1px solid dimgray;
+	width: 150px;
+	height: 459px;
+	background-color: white;
+	border-top: none;
+}
+#real_shortcodes_dialog .group_separator{
+	height: 10px;
+	display: block;	
+}
+#real_shortcodes_dialog .saved_codes .saved_group{
+	background-color: #666;
+	padding: 5px;
+	margin-bottom: 3px;
+	color: white;
+	cursor: pointer;	
+}
+#real_shortcodes_dialog .saved_codes .saved_images,
+#real_shortcodes_dialog .saved_codes .saved_boxes,
+#real_shortcodes_dialog .saved_codes .saved_buttons{
+	display: none;
+}
+#real_shortcodes_dialog .saved_codes .saved_srotcode{
+	background-color: #222;
+	color: white;
+	margin: 3px;
+	padding: 5px;
+	cursor: pointer;
+	position: relative;
+}
+#real_shortcodes_dialog .saved_codes .saved_srotcode:hover{
+	background-color: #444;
+}
+#real_shortcodes_dialog .saved_codes .codes_container{
+	overflow-y: auto;
+	overflow-x:hidden;
+	height: 368px;
+}
+#real_shortcodes_dialog .saved_codes .saved_srotcode .shortcode_delete{
+	position: absolute;
+	right: 3px;
+	color: red;
+}
+#real_shortcodes_dialog #rcreate_button{
+	cursor: pointer;
+	width: 110px;
+	margin: auto;
+	margin-top: 10px;	
+	text-decoration:none; text-align:center; 
+	padding:11px 32px; 
+	border:none; 
+	-webkit-border-radius:17px;
+	-moz-border-radius:17px; 
+	border-radius: 17px; 
+	font:16px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#ffffff; 
+	background-color:#3ba4c7; 
+	background-image: -moz-linear-gradient(top, #3ba4c7 0%, #1982a5 100%); 
+	background-image: -webkit-linear-gradient(top, #3ba4c7 0%, #1982a5 100%); 
+	background-image: -o-linear-gradient(top, #3ba4c7 0%, #1982a5 100%); 
+	background-image: -ms-linear-gradient(top, #3ba4c7 0% ,#1982a5 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982a5', endColorstr='#1982a5',GradientType=0 ); 
+	background-image: linear-gradient(top, #3ba4c7 0% ,#1982a5 100%);   
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+	-moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+}
+#real_shortcodes_dialog #rcreate_button:hover{
+	padding:11px 32px; 
+	border:none; 
+	-webkit-border-radius:17px;
+	-moz-border-radius:17px; 
+	border-radius: 17px; 
+	font:16px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#ffffff; 
+	background-color:#7196a3; 
+	background-image: -moz-linear-gradient(top, #7196a3 0%, #25718a 100%); 
+	background-image: -webkit-linear-gradient(top, #7196a3 0%, #25718a 100%); 
+	background-image: -o-linear-gradient(top, #7196a3 0%, #25718a 100%); 
+	background-image: -ms-linear-gradient(top, #7196a3 0% ,#25718a 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25718a', endColorstr='#25718a',GradientType=0 ); 
+	background-image: linear-gradient(top, #7196a3 0% ,#25718a 100%);   
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+	-moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+}
+#real_shortcodes_dialog .css_include_section textarea{
+	margin: 2px;
+	width: 220px;
+	height: 50px;
+}
+#real_shortcodes_dialog .real_service_links{
+	width: 740px;
+	display: block;
+	position: absolute;
+	top: -25px;
+	background-color: white;
+	border: 1px solid dimgrey;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	z-index: 1;
+}
+#real_shortcodes_dialog .real_service_links a{
+	margin: 0px 15px 0px 15px;
+}
